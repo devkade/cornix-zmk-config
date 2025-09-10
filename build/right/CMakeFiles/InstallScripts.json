@@ -12,7 +12,7 @@
 		"/Users/kade/Areas/cornix-zmk-config/build/right/zephyr/lib/cmake_install.cmake",
 		"/Users/kade/Areas/cornix-zmk-config/build/right/zephyr/lib/crc/cmake_install.cmake",
 		"/Users/kade/Areas/cornix-zmk-config/build/right/zephyr/lib/libc/cmake_install.cmake",
-		"/Users/kade/Areas/cornix-zmk-config/build/right/zephyr/lib/libc/newlib/cmake_install.cmake",
+		"/Users/kade/Areas/cornix-zmk-config/build/right/zephyr/lib/libc/picolibc/cmake_install.cmake",
 		"/Users/kade/Areas/cornix-zmk-config/build/right/zephyr/lib/libc/common/cmake_install.cmake",
 		"/Users/kade/Areas/cornix-zmk-config/build/right/zephyr/lib/posix/cmake_install.cmake",
 		"/Users/kade/Areas/cornix-zmk-config/build/right/zephyr/lib/hash/cmake_install.cmake",

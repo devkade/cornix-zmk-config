@@ -2386,4 +2386,4 @@
 /Users/kade/Areas/cornix-zmk-config/zmk/app/src/split/wired/Kconfig
 /Users/kade/Areas/cornix-zmk-config/zmk/app/src/split/wired/Kconfig.defaults
 /Users/kade/Areas/cornix-zmk-config/zmk/app/src/studio/Kconfig
-/Users/kade/zephyr-sdk-0.17.4/cmake/zephyr/Kconfig
+/Users/kade/zephyr-sdk-0.16.3/cmake/zephyr/Kconfig

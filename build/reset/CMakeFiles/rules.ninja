@@ -17,7 +17,7 @@
 rule C_COMPILER__app_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -25,7 +25,7 @@ rule C_COMPILER__app_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__app_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -44,7 +44,7 @@ rule CUSTOM_COMMAND
 rule ASM_COMPILER__zephyr_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -54,7 +54,7 @@ rule ASM_COMPILER__zephyr_unscanned_
 rule C_COMPILER__zephyr_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -62,7 +62,7 @@ rule C_COMPILER__zephyr_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__zephyr_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -73,7 +73,7 @@ rule C_STATIC_LIBRARY_LINKER__zephyr_
 rule C_COMPILER__offsets_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -83,7 +83,7 @@ rule C_COMPILER__offsets_unscanned_
 rule C_COMPILER__zephyr_pre0_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -91,7 +91,7 @@ rule C_COMPILER__zephyr_pre0_unscanned_
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__zephyr_pre0_
-  command = $PRE_LINK && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE; Logical command for additional byproducts on target: zephyr_pre0
   restat = $RESTAT
 
@@ -102,7 +102,7 @@ rule C_EXECUTABLE_LINKER__zephyr_pre0_
 rule C_COMPILER__zephyr_final_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -110,7 +110,7 @@ rule C_COMPILER__zephyr_final_unscanned_
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__zephyr_final_
-  command = $PRE_LINK && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE; Generating files from zmk.elf for board: cornix_right
   restat = $RESTAT
 
@@ -121,7 +121,7 @@ rule C_EXECUTABLE_LINKER__zephyr_final_
 rule C_COMPILER__arch__common_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -129,7 +129,7 @@ rule C_COMPILER__arch__common_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__arch__common_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -140,7 +140,7 @@ rule C_STATIC_LIBRARY_LINKER__arch__common_
 rule C_COMPILER__isr_tables_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -148,7 +148,7 @@ rule C_COMPILER__isr_tables_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__isr_tables_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -159,7 +159,7 @@ rule C_STATIC_LIBRARY_LINKER__isr_tables_
 rule ASM_COMPILER__arch__arm__core_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -169,7 +169,7 @@ rule ASM_COMPILER__arch__arm__core_unscanned_
 rule C_COMPILER__arch__arm__core_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -177,7 +177,7 @@ rule C_COMPILER__arch__arm__core_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__arch__arm__core_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -188,7 +188,7 @@ rule C_STATIC_LIBRARY_LINKER__arch__arm__core_
 rule ASM_COMPILER__arch__arm__core__cortex_m_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -198,7 +198,7 @@ rule ASM_COMPILER__arch__arm__core__cortex_m_unscanned_
 rule C_COMPILER__arch__arm__core__cortex_m_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -206,7 +206,7 @@ rule C_COMPILER__arch__arm__core__cortex_m_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__arch__arm__core__cortex_m_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -217,7 +217,7 @@ rule C_STATIC_LIBRARY_LINKER__arch__arm__core__cortex_m_
 rule C_COMPILER__arch__arm__core__mpu_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -225,7 +225,7 @@ rule C_COMPILER__arch__arm__core__mpu_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__arch__arm__core__mpu_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -233,18 +233,18 @@ rule C_STATIC_LIBRARY_LINKER__arch__arm__core__mpu_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__lib__libc__newlib_unscanned_
+rule C_COMPILER__lib__libc__picolibc_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
 #############################################
 # Rule for linking C static library.
 
-rule C_STATIC_LIBRARY_LINKER__lib__libc__newlib_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+rule C_STATIC_LIBRARY_LINKER__lib__libc__picolibc_
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -255,7 +255,7 @@ rule C_STATIC_LIBRARY_LINKER__lib__libc__newlib_
 rule C_COMPILER__lib__libc__common_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -263,7 +263,7 @@ rule C_COMPILER__lib__libc__common_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__lib__libc__common_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -274,7 +274,7 @@ rule C_STATIC_LIBRARY_LINKER__lib__libc__common_
 rule C_COMPILER__lib__posix_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -282,7 +282,7 @@ rule C_COMPILER__lib__posix_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__lib__posix_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -293,7 +293,7 @@ rule C_STATIC_LIBRARY_LINKER__lib__posix_
 rule C_COMPILER__soc__arm__common__cortex_m_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -301,7 +301,7 @@ rule C_COMPILER__soc__arm__common__cortex_m_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__soc__arm__common__cortex_m_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -312,7 +312,7 @@ rule C_STATIC_LIBRARY_LINKER__soc__arm__common__cortex_m_
 rule C_COMPILER__soc__arm__nordic_nrf__nrf52_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -320,7 +320,7 @@ rule C_COMPILER__soc__arm__nordic_nrf__nrf52_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__soc__arm__nordic_nrf__nrf52_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -331,7 +331,7 @@ rule C_STATIC_LIBRARY_LINKER__soc__arm__nordic_nrf__nrf52_
 rule C_COMPILER__.2e.2e__zmk-keyboard-cornix__boards__arm__cornix_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -339,7 +339,7 @@ rule C_COMPILER__.2e.2e__zmk-keyboard-cornix__boards__arm__cornix_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__.2e.2e__zmk-keyboard-cornix__boards__arm__cornix_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -350,7 +350,7 @@ rule C_STATIC_LIBRARY_LINKER__.2e.2e__zmk-keyboard-cornix__boards__arm__cornix_
 rule C_COMPILER__subsys__usb__device__class__hid_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -358,7 +358,7 @@ rule C_COMPILER__subsys__usb__device__class__hid_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__subsys__usb__device__class__hid_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -369,7 +369,7 @@ rule C_STATIC_LIBRARY_LINKER__subsys__usb__device__class__hid_
 rule C_COMPILER__subsys__input_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -377,7 +377,7 @@ rule C_COMPILER__subsys__input_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__subsys__input_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -388,7 +388,7 @@ rule C_STATIC_LIBRARY_LINKER__subsys__input_
 rule C_COMPILER__drivers__interrupt_controller_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -396,7 +396,7 @@ rule C_COMPILER__drivers__interrupt_controller_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__interrupt_controller_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -407,7 +407,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__interrupt_controller_
 rule C_COMPILER__drivers__usb__device_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -415,7 +415,7 @@ rule C_COMPILER__drivers__usb__device_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__usb__device_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -426,7 +426,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__usb__device_
 rule C_COMPILER__drivers__adc_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -434,7 +434,7 @@ rule C_COMPILER__drivers__adc_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__adc_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -445,7 +445,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__adc_
 rule C_COMPILER__drivers__clock_control_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -453,7 +453,7 @@ rule C_COMPILER__drivers__clock_control_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__clock_control_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -464,7 +464,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__clock_control_
 rule C_COMPILER__drivers__flash_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -472,7 +472,7 @@ rule C_COMPILER__drivers__flash_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__flash_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -483,7 +483,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__flash_
 rule C_COMPILER__drivers__gpio_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -491,7 +491,7 @@ rule C_COMPILER__drivers__gpio_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__gpio_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -502,7 +502,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__gpio_
 rule C_COMPILER__drivers__hwinfo_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -510,7 +510,7 @@ rule C_COMPILER__drivers__hwinfo_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__hwinfo_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -521,7 +521,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__hwinfo_
 rule C_COMPILER__drivers__input_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -529,7 +529,7 @@ rule C_COMPILER__drivers__input_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__input_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -540,7 +540,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__input_
 rule C_COMPILER__drivers__kscan_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -548,7 +548,7 @@ rule C_COMPILER__drivers__kscan_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__kscan_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -559,7 +559,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__kscan_
 rule C_COMPILER__drivers__pinctrl_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -567,7 +567,7 @@ rule C_COMPILER__drivers__pinctrl_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__pinctrl_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -578,7 +578,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__pinctrl_
 rule C_COMPILER__drivers__sensor_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -586,7 +586,7 @@ rule C_COMPILER__drivers__sensor_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__sensor_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -597,7 +597,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__sensor_
 rule C_COMPILER__drivers__sensor__nrf5_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -605,7 +605,7 @@ rule C_COMPILER__drivers__sensor__nrf5_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__sensor__nrf5_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -616,7 +616,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__sensor__nrf5_
 rule C_COMPILER__drivers__timer_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -624,7 +624,7 @@ rule C_COMPILER__drivers__timer_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__drivers__timer_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -635,7 +635,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__timer_
 rule C_COMPILER__modules__hal_nordic__nrfx_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -643,7 +643,7 @@ rule C_COMPILER__modules__hal_nordic__nrfx_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__modules__hal_nordic__nrfx_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -654,7 +654,7 @@ rule C_STATIC_LIBRARY_LINKER__modules__hal_nordic__nrfx_
 rule C_COMPILER__.2e.2e__zmk__app__module__drivers__sensor__battery_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -662,7 +662,7 @@ rule C_COMPILER__.2e.2e__zmk__app__module__drivers__sensor__battery_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__.2e.2e__zmk__app__module__drivers__sensor__battery_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -673,7 +673,7 @@ rule C_STATIC_LIBRARY_LINKER__.2e.2e__zmk__app__module__drivers__sensor__battery
 rule C_COMPILER__.2e.2e__zmk__app__module__drivers__sensor__ec11_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -681,7 +681,7 @@ rule C_COMPILER__.2e.2e__zmk__app__module__drivers__sensor__ec11_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__.2e.2e__zmk__app__module__drivers__sensor__ec11_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -692,7 +692,7 @@ rule C_STATIC_LIBRARY_LINKER__.2e.2e__zmk__app__module__drivers__sensor__ec11_
 rule C_COMPILER__.2e.2e__zmk__app__module__lib__zmk_debounce_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -700,7 +700,7 @@ rule C_COMPILER__.2e.2e__zmk__app__module__lib__zmk_debounce_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__.2e.2e__zmk__app__module__lib__zmk_debounce_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -711,7 +711,7 @@ rule C_STATIC_LIBRARY_LINKER__.2e.2e__zmk__app__module__lib__zmk_debounce_
 rule C_COMPILER__kernel_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ccache ${LAUNCHER}${CODE_CHECK}/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -719,7 +719,7 @@ rule C_COMPILER__kernel_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__kernel_
-  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && ccache /opt/homebrew/bin/cmake -E rm -f $TARGET_FILE && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && ccache /opt/homebrew/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 

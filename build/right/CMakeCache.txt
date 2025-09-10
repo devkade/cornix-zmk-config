@@ -69,24 +69,24 @@ CACHED_ZMK_CONFIG:STRING=/Users/kade/Areas/cornix-zmk-config/config
 CCACHE_FOUND:FILEPATH=/opt/homebrew/bin/ccache
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line
+CMAKE_ADDR2LINE:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line
 
 //Path to a program.
-CMAKE_AR:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar
+CMAKE_AR:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar
 
 //Path to a program.
-CMAKE_AS:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-as
+CMAKE_AS:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as
 
 //ASM compiler
-CMAKE_ASM_COMPILER:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc
+CMAKE_ASM_COMPILER:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_ASM_COMPILER_AR:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar
+CMAKE_ASM_COMPILER_AR:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_ASM_COMPILER_RANLIB:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib
+CMAKE_ASM_COMPILER_RANLIB:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib
 
 //Flags used by the ASM compiler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -108,15 +108,15 @@ CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_BUILD_TYPE:STRING=
 
 //CXX compiler
-CMAKE_CXX_COMPILER:STRING=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++
+CMAKE_CXX_COMPILER:STRING=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar
+CMAKE_CXX_COMPILER_AR:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -134,15 +134,15 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:STRING=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc
+CMAKE_C_COMPILER:STRING=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar
+CMAKE_C_COMPILER_AR:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -188,13 +188,13 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/Users/kade/Areas/cornix-zmk-config/build/right/CMakeFiles/pkgRedirects
 
 //Path to a program.
-CMAKE_GCOV:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov
+CMAKE_GCOV:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov
 
 //Path to a program.
-CMAKE_GDB:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb
+CMAKE_GDB:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb
 
 //Path to a program.
-CMAKE_GDB_NO_PY:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb
+CMAKE_GDB_NO_PY:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
@@ -223,13 +223,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm
+CMAKE_NM:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy
+CMAKE_OBJCOPY:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump
+CMAKE_OBJDUMP:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=
@@ -259,10 +259,10 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib
+CMAKE_RANLIB:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf
+CMAKE_READELF:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -312,7 +312,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip
+CMAKE_STRIP:FILEPATH=/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip
 
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
@@ -388,7 +388,7 @@ ZEPHYR_BASE:PATH=/Users/kade/Areas/cornix-zmk-config/zephyr
 ZEPHYR_GIT_INDEX:PATH=/Users/kade/Areas/cornix-zmk-config/zephyr/.git/index
 
 //Zephyr SDK install directory
-ZEPHYR_SDK_INSTALL_DIR:PATH=/Users/kade/zephyr-sdk-0.17.4
+ZEPHYR_SDK_INSTALL_DIR:PATH=/Users/kade/zephyr-sdk-0.16.3
 
 //Zephyr toolchain variant
 ZEPHYR_TOOLCHAIN_VARIANT:STRING=zephyr
@@ -406,7 +406,7 @@ Zephyr-Kernel_IS_TOP_LEVEL:STATIC=ON
 Zephyr-Kernel_SOURCE_DIR:STATIC=/Users/kade/Areas/cornix-zmk-config/zmk/app
 
 //The directory containing a CMake configuration file for Zephyr-sdk.
-Zephyr-sdk_DIR:PATH=/Users/kade/zephyr-sdk-0.17.4/cmake
+Zephyr-sdk_DIR:PATH=/Users/kade/zephyr-sdk-0.16.3/cmake
 
 //The directory containing a CMake configuration file for ZephyrAppConfiguration.
 ZephyrAppConfiguration_DIR:PATH=ZephyrAppConfiguration_DIR-NOTFOUND
@@ -598,7 +598,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Dtc
 FIND_PACKAGE_MESSAGE_DETAILS_Dtc:INTERNAL=[/opt/homebrew/bin/dtc][v1.7.2(1.4.6)]
 //Details about finding GnuLd
-FIND_PACKAGE_MESSAGE_DETAILS_GnuLd:INTERNAL=[/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.bfd][v2.38()]
+FIND_PACKAGE_MESSAGE_DETAILS_GnuLd:INTERNAL=[/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.bfd][v2.38()]
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/opt/homebrew/Cellar/west/1.4.0/libexec/bin/python][found components: Interpreter ][v3.13.7(3.8)]
 //West

@@ -1185,14 +1185,6 @@
     ],
     [
         [
-            "int *z_errno",
-            "void"
-        ],
-        "errno_private.h",
-        true
-    ],
-    [
-        [
             "const struct device *behavior_get_binding",
             "const char *name"
         ],
@@ -4077,6 +4069,14 @@
             "atomic_t *target, atomic_val_t value"
         ],
         "atomic_c.h",
+        false
+    ],
+    [
+        [
+            "int *z_errno",
+            "void"
+        ],
+        "errno_private.h",
         false
     ],
     [

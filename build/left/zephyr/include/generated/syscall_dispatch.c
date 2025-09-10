@@ -601,10 +601,6 @@ uintptr_t z_mrsh_sys_clock_hw_cycles_per_sec_runtime_get(uintptr_t arg1, uintptr
          uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, void *ssf);
 
 __weak ALIAS_OF(handler_no_syscall)
-uintptr_t z_mrsh_z_errno(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3,
-         uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, void *ssf);
-
-__weak ALIAS_OF(handler_no_syscall)
 uintptr_t z_mrsh_behavior_get_binding(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3,
          uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, void *ssf);
 
@@ -808,7 +804,6 @@ const _k_syscall_handler_t _k_syscall_table[K_SYSCALL_LIMIT] = {
 	[K_SYSCALL_K_OBJECT_ALLOC] = z_mrsh_k_object_alloc,
 	[K_SYSCALL_K_OBJECT_ALLOC_SIZE] = z_mrsh_k_object_alloc_size,
 	[K_SYSCALL_SYS_CLOCK_HW_CYCLES_PER_SEC_RUNTIME_GET] = z_mrsh_sys_clock_hw_cycles_per_sec_runtime_get,
-	[K_SYSCALL_Z_ERRNO] = z_mrsh_z_errno,
 	[K_SYSCALL_BEHAVIOR_GET_BINDING] = z_mrsh_behavior_get_binding,
 	[K_SYSCALL_BEHAVIOR_KEYMAP_BINDING_CONVERT_CENTRAL_STATE_DEPENDENT_PARAMS] = z_mrsh_behavior_keymap_binding_convert_central_state_dependent_params,
 	[K_SYSCALL_BEHAVIOR_GET_PARAMETER_METADATA] = z_mrsh_behavior_get_parameter_metadata,

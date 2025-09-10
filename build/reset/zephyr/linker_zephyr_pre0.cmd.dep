@@ -17,7 +17,7 @@ linker_zephyr_pre0.cmd: \
  /Users/kade/Areas/cornix-zmk-config/zephyr/include/zephyr/sys/util_internal_util_inc.h \
  /Users/kade/Areas/cornix-zmk-config/zephyr/include/zephyr/sys/util_internal_util_dec.h \
  /Users/kade/Areas/cornix-zmk-config/zephyr/include/zephyr/sys/util_internal_util_x2.h \
- /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include/stdbool.h \
+ /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include/stdbool.h \
  /Users/kade/Areas/cornix-zmk-config/zephyr/include/zephyr/devicetree/io-channels.h \
  /Users/kade/Areas/cornix-zmk-config/zephyr/include/zephyr/devicetree/clocks.h \
  /Users/kade/Areas/cornix-zmk-config/zephyr/include/zephyr/devicetree/gpio.h \

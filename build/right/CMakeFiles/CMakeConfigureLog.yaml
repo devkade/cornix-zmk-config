@@ -50,14 +50,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/Areas/cornix-zmk-config/firmware/ZephyrBuildConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/kade/Areas/cornix-zmk-config/firmware/zephyrbuild-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/Users/kade/Areas/cornix-zmk-config/zmk-helpers/ZephyrBuildConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -540,19 +532,19 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/Zephyr-sdkConfig.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/Zephyr-sdkConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/zephyr-sdk-config.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/zephyr-sdk-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/cmake/Zephyr-sdkConfig.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/cmake/Zephyr-sdkConfig.cmake"
         mode: "config"
         reason: "insufficient_version"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/cmake/zephyr-sdk-config.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/cmake/zephyr-sdk-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -668,11 +660,11 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/cmake/Zephyr-sdkConfig.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/cmake/Zephyr-sdkConfig.cmake"
         mode: "config"
         reason: "insufficient_version"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/cmake/zephyr-sdk-config.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/cmake/zephyr-sdk-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -741,9 +733,9 @@ events:
     names:
       - "gperf"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -770,9 +762,9 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/gperf"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/gperf"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/gperf"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/gperf"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/gperf"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/gperf"
       - "/Users/kade/.local/bin/gperf"
       - "/Users/kade/.codeium/windsurf/bin/gperf"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/gperf"
@@ -782,7 +774,7 @@ events:
     found: "/opt/homebrew/bin/gperf"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -839,9 +831,9 @@ events:
     names:
       - "openocd"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -868,9 +860,9 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/openocd"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/openocd"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/openocd"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/openocd"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/openocd"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/openocd"
       - "/Users/kade/.local/bin/openocd"
       - "/Users/kade/.codeium/windsurf/bin/openocd"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/openocd"
@@ -880,7 +872,7 @@ events:
     found: "/opt/homebrew/bin/openocd"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -937,9 +929,9 @@ events:
     names:
       - "bossac"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -966,9 +958,9 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/bossac"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/bossac"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bossac"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/bossac"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/bossac"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bossac"
       - "/Users/kade/.local/bin/bossac"
       - "/Users/kade/.codeium/windsurf/bin/bossac"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/bossac"
@@ -997,7 +989,7 @@ events:
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1054,9 +1046,9 @@ events:
     names:
       - "imgtool"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -1083,9 +1075,9 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/imgtool"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/imgtool"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/imgtool"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/imgtool"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/imgtool"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/imgtool"
       - "/Users/kade/.local/bin/imgtool"
       - "/Users/kade/.codeium/windsurf/bin/imgtool"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/imgtool"
@@ -1114,7 +1106,7 @@ events:
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1170,13 +1162,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
+      - "/Users/kade/zephyr-sdk-0.16.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1232,13 +1224,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
+      - "/Users/kade/zephyr-sdk-0.16.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1295,9 +1287,9 @@ events:
     names:
       - "dtc"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -1324,9 +1316,9 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/dtc"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/dtc"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/dtc"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/dtc"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/dtc"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/dtc"
       - "/Users/kade/.local/bin/dtc"
       - "/Users/kade/.codeium/windsurf/bin/dtc"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/dtc"
@@ -1336,7 +1328,7 @@ events:
     found: "/opt/homebrew/bin/dtc"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1392,13 +1384,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1454,13 +1446,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1516,13 +1508,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1578,13 +1570,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1640,13 +1632,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-as"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-as"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1702,13 +1694,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1764,13 +1756,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1826,13 +1818,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1888,13 +1880,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -1950,13 +1942,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2012,13 +2004,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2074,13 +2066,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
+      - "/Users/kade/zephyr-sdk-0.16.3/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2137,9 +2129,9 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -2166,9 +2158,9 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/uname"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/uname"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/uname"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/uname"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/uname"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/uname"
       - "/Users/kade/.local/bin/uname"
       - "/Users/kade/.codeium/windsurf/bin/uname"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/uname"
@@ -2182,7 +2174,7 @@ events:
     found: "/usr/bin/uname"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2253,9 +2245,9 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -2282,15 +2274,15 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/ninja-build"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/ninja"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/samu"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/ninja-build"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/ninja"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/samu"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/ninja-build"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/ninja"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/samu"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/ninja-build"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/ninja"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/samu"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/ninja-build"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/ninja"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/samu"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/ninja-build"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/ninja"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/samu"
       - "/Users/kade/.local/bin/ninja-build"
       - "/Users/kade/.local/bin/ninja"
       - "/Users/kade/.local/bin/samu"
@@ -2313,7 +2305,7 @@ events:
     found: "/opt/homebrew/bin/ninja"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2379,7 +2371,7 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2426,13 +2418,13 @@ events:
       - "CMakeLists.txt:9 (find_package)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+      Compiler: /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
       Build flags: 
       Id flags:  
       
       The output was:
       1
-      /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+      /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
       exit.c:(.text.exit+0x34): undefined reference to `_exit'
       collect2: error: ld returned 1 exit status
       
@@ -2469,7 +2461,7 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2516,7 +2508,7 @@ events:
       - "CMakeLists.txt:9 (find_package)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+      Compiler: /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
       Build flags: 
       Id flags: -c 
       
@@ -2554,7 +2546,7 @@ events:
       - "arm-zephyr-eabi-dlltool"
       - "dlltool"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -2581,7 +2573,7 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-dlltool"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-dlltool"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-dlltool"
@@ -2607,7 +2599,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-dlltool"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-dlltool"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-dlltool"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/dlltool"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/dlltool"
       - "/Users/kade/.local/bin/dlltool"
       - "/Users/kade/.codeium/windsurf/bin/dlltool"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/dlltool"
@@ -2636,7 +2628,7 @@ events:
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2695,7 +2687,7 @@ events:
       - "arm-zephyr-eabi-addr2line"
       - "addr2line"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -2721,10 +2713,10 @@ events:
       - "/opt/anaconda3/condabin/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2783,7 +2775,7 @@ events:
       - "arm-zephyr-eabi-tapi"
       - "tapi"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -2810,7 +2802,7 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-tapi"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-tapi"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-tapi"
@@ -2836,7 +2828,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-tapi"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-tapi"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-tapi"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/tapi"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/tapi"
       - "/Users/kade/.local/bin/tapi"
       - "/Users/kade/.codeium/windsurf/bin/tapi"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/tapi"
@@ -2865,7 +2857,7 @@ events:
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -2926,7 +2918,7 @@ events:
       - "arm-zephyr-eabi-gcc-ar12"
       - "arm-zephyr-eabi-gcc-ar"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -2953,7 +2945,7 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ar-12.2"
@@ -2979,7 +2971,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ar-12.2"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ar-12"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ar-12"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ar-12"
@@ -3005,7 +2997,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ar-12"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ar-12"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ar-12"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ar12"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ar12"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ar12"
@@ -3031,10 +3023,10 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ar12"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ar12"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ar12"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -3095,7 +3087,7 @@ events:
       - "arm-zephyr-eabi-gcc-ranlib12"
       - "arm-zephyr-eabi-gcc-ranlib"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -3122,7 +3114,7 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
@@ -3148,7 +3140,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ranlib-12.2"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ranlib-12"
@@ -3174,7 +3166,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ranlib-12"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ranlib12"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ranlib12"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ranlib12"
@@ -3200,10 +3192,10 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ranlib12"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ranlib12"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ranlib12"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -3269,7 +3261,7 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -3316,13 +3308,13 @@ events:
       - "CMakeLists.txt:9 (find_package)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+      Compiler: /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
       Build flags: 
       Id flags:  
       
       The output was:
       1
-      /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+      /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
       exit.c:(.text.exit+0x34): undefined reference to `_exit'
       collect2: error: ld returned 1 exit status
       
@@ -3359,7 +3351,7 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -3406,7 +3398,7 @@ events:
       - "CMakeLists.txt:9 (find_package)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+      Compiler: /Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
       Build flags: 
       Id flags: -c 
       
@@ -3446,7 +3438,7 @@ events:
       - "arm-zephyr-eabi-gcc-ar12"
       - "arm-zephyr-eabi-gcc-ar"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -3473,7 +3465,7 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ar-12.2"
@@ -3499,7 +3491,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ar-12.2"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ar-12.2"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ar-12"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ar-12"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ar-12"
@@ -3525,7 +3517,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ar-12"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ar-12"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ar-12"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ar12"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ar12"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ar12"
@@ -3551,10 +3543,10 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ar12"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ar12"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ar12"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -3615,7 +3607,7 @@ events:
       - "arm-zephyr-eabi-gcc-ranlib12"
       - "arm-zephyr-eabi-gcc-ranlib"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -3642,7 +3634,7 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
@@ -3668,7 +3660,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ranlib-12.2"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ranlib-12"
@@ -3694,7 +3686,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ranlib-12"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ranlib-12"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ranlib12"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ranlib12"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ranlib12"
@@ -3720,10 +3712,10 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ranlib12"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ranlib12"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ranlib12"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -3779,13 +3771,13 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -3834,7 +3826,7 @@ events:
       - "CMakeLists.txt:9 (find_package)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      arm-zephyr-eabi-gcc (Zephyr SDK 0.17.4) 12.2.0
+      arm-zephyr-eabi-gcc (Zephyr SDK 0.16.3) 12.2.0
       Copyright (C) 2022 Free Software Foundation, Inc.
       This is free software; see the source for copying conditions.  There is NO
       warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -3866,7 +3858,7 @@ events:
       - "arm-zephyr-eabi-gcc-ar"
       - "arm-zephyr-eabi-gcc-ar"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -3893,7 +3885,7 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ar-"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ar-"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ar-"
@@ -3919,7 +3911,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ar-"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ar-"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ar-"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ar-"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ar-"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ar-"
@@ -3945,10 +3937,10 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ar-"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ar-"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ar-"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -4012,7 +4004,7 @@ events:
       - "arm-zephyr-eabi-gcc-ranlib"
       - "arm-zephyr-eabi-gcc-ranlib"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -4039,7 +4031,7 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ranlib-"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ranlib-"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ranlib-"
@@ -4065,7 +4057,7 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ranlib-"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ranlib-"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ranlib-"
-      - "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
       - "/Users/kade/.local/bin/arm-zephyr-eabi-gcc-ranlib-"
       - "/Users/kade/.codeium/windsurf/bin/arm-zephyr-eabi-gcc-ranlib-"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/arm-zephyr-eabi-gcc-ranlib-"
@@ -4091,10 +4083,10 @@ events:
       - "/opt/anaconda3/condabin/arm-zephyr-eabi-gcc-ranlib-"
       - "/Applications/iTerm.app/Contents/Resources/utilities/arm-zephyr-eabi-gcc-ranlib-"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-zephyr-eabi-gcc-ranlib-"
-    found: "/Users/kade/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib"
+    found: "/Users/kade/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -4149,9 +4141,9 @@ events:
     names:
       - "puncover"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -4178,9 +4170,9 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/puncover"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/puncover"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/puncover"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/puncover"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/puncover"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/puncover"
       - "/Users/kade/.local/bin/puncover"
       - "/Users/kade/.codeium/windsurf/bin/puncover"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/puncover"
@@ -4209,7 +4201,7 @@ events:
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -4264,9 +4256,9 @@ events:
     names:
       - "pahole"
     candidate_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/"
       - "/Users/kade/.local/bin/"
       - "/Users/kade/.codeium/windsurf/bin/"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/"
@@ -4293,9 +4285,9 @@ events:
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Users/kade/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/bin/pahole"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/sbin/pahole"
-      - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr/pahole"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/bin/pahole"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/sbin/pahole"
+      - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr/pahole"
       - "/Users/kade/.local/bin/pahole"
       - "/Users/kade/.codeium/windsurf/bin/pahole"
       - "/Users/kade/.nvm/versions/node/v22.14.0/bin/pahole"
@@ -4324,7 +4316,7 @@ events:
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"
@@ -4439,27 +4431,27 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/ZephyrConfig.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/ZephyrConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/zephyr-config.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/zephyr-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/cmake/ZephyrConfig.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/cmake/ZephyrConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/cmake/zephyr-config.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/cmake/zephyr-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/cmake/zephyr/ZephyrConfig.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/cmake/zephyr/ZephyrConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/kade/zephyr-sdk-0.17.4/cmake/zephyr/zephyr-config.cmake"
+        path: "/Users/kade/zephyr-sdk-0.16.3/cmake/zephyr/zephyr-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4580,7 +4572,7 @@ events:
       version: "3.5.0"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "/Users/kade/zephyr-sdk-0.17.4/sysroots/arm64-pokysdk-linux/usr"
+        - "/Users/kade/zephyr-sdk-0.16.3/sysroots/arm64-pokysdk-linux/usr"
       ENV{PATH}:
         - "/Users/kade/.local/bin"
         - "/Users/kade/.codeium/windsurf/bin"

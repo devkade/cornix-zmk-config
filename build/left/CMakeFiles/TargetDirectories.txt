@@ -60,9 +60,9 @@
 /Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/crc/CMakeFiles/rebuild_cache.dir
 /Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/CMakeFiles/edit_cache.dir
 /Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/CMakeFiles/rebuild_cache.dir
-/Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/newlib/CMakeFiles/lib__libc__newlib.dir
-/Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/newlib/CMakeFiles/edit_cache.dir
-/Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/newlib/CMakeFiles/rebuild_cache.dir
+/Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/picolibc/CMakeFiles/lib__libc__picolibc.dir
+/Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/picolibc/CMakeFiles/edit_cache.dir
+/Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/picolibc/CMakeFiles/rebuild_cache.dir
 /Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/common/CMakeFiles/lib__libc__common.dir
 /Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/common/CMakeFiles/edit_cache.dir
 /Users/kade/Areas/cornix-zmk-config/build/left/zephyr/lib/libc/common/CMakeFiles/rebuild_cache.dir
