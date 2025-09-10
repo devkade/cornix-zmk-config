@@ -1,0 +1,2 @@
+osource "/Users/kade/Areas/cornix-zmk-config/zmk-keyboard-cornix/boards/shields/*/Kconfig.shield"
+osource "/Users/kade/Areas/cornix-zmk-config/zmk/app/boards/shields/*/Kconfig.shield"
